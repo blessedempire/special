@@ -46,6 +46,7 @@ header {
 }
 
 .search-button {
+  margin-top: 6px;
   padding: 8px 15px;
   border: none;
   border-radius: 5px;
