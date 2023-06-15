@@ -9,7 +9,7 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-@media screen and (max-width) {
+@media screen and (max-width: 360px) {
   header {
     flex-direction: column;
     text-align: center;
