@@ -9,6 +9,26 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (max-width) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .search-form {
+    margin: 20px auto;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu li {
+    margin: 10px;
+  }
+}
+
 .logo {
   font-size: 24px;
   font-weight: bold;
