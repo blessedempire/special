@@ -13,7 +13,7 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-@media screen and (max-width: 360px) {
+/* @media screen and (max-width: 360px) {
   header {
     flex-direction: column;
     text-align: center;
@@ -31,7 +31,7 @@ header {
   .menu li {
     margin: 10px;
   }
-}
+} */
 
 .logo {
   font-size: 24px;
@@ -53,12 +53,13 @@ header {
   margin-top: 6px;
   padding: 8px 15px;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   background-color: #2980b9;
   color: white;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
+  width: 78px;
 }
 
 .search-button:hover {
@@ -86,13 +87,46 @@ header {
   color: #ecf0f1;
 }
 
+/*Media query for smaller screen, as long as the max width is 730px and not above, the code in the curly bracket should apply*/
+@media (max-width: 730px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .search-form {
+    margin: 20px auto;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu li {
+    margin: 10px;
+  }
+}
+
 /*style article*/
 
-article {
-  border: #2c3e50 solid 2px;
+.now {
+  border: #2c3e50 solid 5px;
   margin-top: 5px;
   display: inline-block;
   padding: 10px;
-  width: 40em;
-  height: 32em;
+  width: 49%;
+  height: 50%;
 }
+
+.next {
+  border: #2c3e50 solid 5px;
+  margin-top: 5px;
+  padding: 10px;
+  width: 49%;
+  height: 50%;
+  float: right;
+}
+
+
+
