@@ -108,5 +108,20 @@ header {
   float: right;
 }
 
+.foot {
+  border: #2c3e50 solid 5px;
+  margin-top: 10px;
+}
 
+.footer-down {
+  margin: 20px;
+  padding: 10px;
+}
 
+.downbar {
+  color: rgb(10, 10, 10);
+  box-shadow: #2980b9;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-style: italic;
+  clear: both;
+}
