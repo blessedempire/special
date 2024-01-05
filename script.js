@@ -1,4 +1,4 @@
-let message;
-message = 'How!';
+let planetName = "Earth";
+console.log(planetName); // Earth
 
-alert(message); // shows the variable content
+let ourSolarSystem = "Milky Way";
